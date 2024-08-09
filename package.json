@@ -4,7 +4,8 @@
   "description": "Video Journals is for students and teachers to understand more about authors who writes books on education.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "sass sass/main.scss:assets/css/styles.css -w"
   },
   "repository": {
     "type": "git",
