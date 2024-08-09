@@ -1,0 +1,31 @@
+{
+  "name": "video-journals",
+  "version": "1.0.0",
+  "description": "Video Journals is for students and teachers to understand more about authors who writes books on education.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisashreek5thdt/Video-Journals.git"
+  },
+  "keywords": [
+    "video",
+    "journals",
+    "video-journals",
+    "education",
+    "journal",
+    "education"
+  ],
+  "author": "Sai Sashreek D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisashreek5thdt/Video-Journals/issues"
+  },
+  "homepage": "https://github.com/saisashreek5thdt/Video-Journals#readme",
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0"
+  }
+}
