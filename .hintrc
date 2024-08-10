@@ -11,14 +11,6 @@
     "not safari <= 17.5"
   ],
   "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "text-align: -webkit-match-parent",
-          "scrollbar-width"
-        ]
-      }
-    ]
+    "compat-api/css": "off"
   }
 }
