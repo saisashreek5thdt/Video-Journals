@@ -1,16 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [".//**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./pages/**/*.{html,js}",
+    "./assets/**/*.{html,js}",
+  ],
   theme: {
     extend: {
       backgroundImage: {
-        "homeBG": "url('/assets/images/bg/Journal.png')"
-      }
+        homeBG: "url('/assets/images/bg/Journal.png')",
+      },
     },
     fontFamily: {
-      "Manrope": ["Manrope"]
-    }
+      Manrope: ["Manrope"],
+    },
   },
   plugins: [],
-}
-
+};
